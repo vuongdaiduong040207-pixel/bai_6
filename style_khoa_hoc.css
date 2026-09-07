@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+.div_top {
+  text-align: center;
+  height: 120px;
+}
+.div_top > div {
+  font-size: 35px;
+  font-weight: bolder;
+}
+.div_top > p {
+  margin-top: -23px;
+  color: blue;
+  font-size: 23px
+}
+.div_top>hr{
+  width: 300px;
+  border: 1px solid blue;
+}
+.div_top > div > b {
+  font-size: 30px;
+  color: rgb(48, 48, 255);
+}
+.div_bottom_intop {
+  display: flex;
+}
+.study_image {
+  width: 300px;
+  height: 200px;
+  margin-left: 155px;
+  margin-top: 50px;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+.div_center {
+  text-align: center;
+}
+.div_center > div > b {
+  font-size: 30px;
+}
+.text_small {
+  font-size: 10px;
+  color: gray;
+  margin-top: 10px;
+}
+.div_in_dcenter {
+  display: flex;
+  text-align: center;
+}
+.div_in_dcenter > div {
+  border: 1px solid gray;
+  width: 350px;
+  height: 530px;
+  margin-left: 119px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.can_giua_intop {
+  margin-left: 155px;
+}
+.logo_image {
+  width: 150px;
+  height: 150px;
+}
+.logo_image2 {
+  width: 250px;
+  height: 150px;
+}
+.bold {
+  font-weight: bold;
+  font-size: 22px;
+}
+.text_small2 {
+  font-size: 10px;
+  color: gray;
+  margin-top: -15px;
+}
+.blue {
+  font-weight: bold;
+  font-size: 25px;
+  color: blue;
+}
+.gray {
+  color: gray;
+}
+hr {
+  width: 90%;
+}
+.div_in_dcenter > div > div {
+  text-align: left;
+  padding-left: 10px;
+}
+button {
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  border: 2px solid blue;
+  font-size: 20px;
+  color: blue;
+  padding: 10px 25px 10px 25px;
+}
+button:active {
+  transform: scale(0.95);
+}
+button:focus {
+  background-color: orange;
+  color: white;
+  font-size: 25px;
+  border: orange;
+}
+.blue > a {
+  text-decoration: none;
+  color: black;
+}
+.blue > a:hover {
+  color: orange;
+}
+.blue > a:active {
+  color: navy;
+}
+.div_footer {
+  margin-top: 25px;
+  height: 140px;
+  margin-bottom: 60px;
+}
+.div_footer > div {
+  display: flex;
+  margin-left: 165px;
+  margin-right: 165px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+.div_footer > div > div {
+  width: 300px;
+  height: 140px;
+  text-align: center;
+  border-right: 2px solid gray;
+}
+.div_footer > div > div:last-child{
+  border-right: none;
+}
+.footer_img {
+  width: 70px;
+}
+.p_footer {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: -1px;
+}
+.span_footer {
+  font-size: 14px;
+}
+.div_small{
+  margin-top: -10px;
+}
