@@ -19,7 +19,6 @@ body {
 }
 .div_footer {
   display: flex;
-  border: 1px saddlebrown solid;
   height: 520px;
 }
 .div_footer > div {
