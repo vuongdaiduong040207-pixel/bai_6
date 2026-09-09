@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div_in_header{
+    display: flex;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+}
+.div_small_hd{
+    margin-right: 800px;
+}
+.logo_trashcan{
+    width: 20px;
+}
+.gray{
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.gray>a{
+    text-decoration: none;
+    color: gray;
+}
+.sell_img{
+    width: 200px;
+}
+.select1{
+    padding: 5px 10px 5px 10px;
+}
+.div_td1{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.div_td2{
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 13px;
+}
+.div_td3{
+    margin-bottom: 15px;
+}
+
+.a_td1{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+}
+.ip_td1{
+    width: 70px;
+    height: 25px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.div_small_td1{
+    margin-left: 100px;
+}
+.div_small_td2{
+    margin-left: 125px;
+}
+.div_small_td3{
+    margin-left: 90px;
+}
+.div_small_td4{
+    margin-left: 125px;
+}
+.div_small_td5{
+    margin-left: 70px;
+}
+.text_left{
+    margin-left: 70px;
+    font-size: 20px;
+    color: green;
+}
+.text_top{
+    margin-top: 7px;
+    margin-left: -3px;
+}
+table{
+    height: 250px;
+}
+.div_all_footer{
+    display: flex;
+}
+.div_in_dfooter1{
+    margin: 0px 630px 0px 40px;
+    font-weight: bold;
+}
+.div_in_dfooter2{
+    font-weight: bold;
+}
+.span_footer{
+    color: green;
+}
+.div_small_td5{
+    margin-left: 120px;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: navy;
+}
