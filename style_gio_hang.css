@@ -39,15 +39,53 @@ body {
 .div_small {
   font-weight: bold;
 }
-.div_small2 {
+.div_in_small1{
   width: 200px;
-  padding: 40px 0px 0px 50px;
+  padding: 40px 0px 0px 0px;
 }
-.div_small2 > span > a {
+.div_in_small1 > span > a {
   text-decoration: none;
   color: rgb(255, 85, 0);
   font-size: 25px;
   font-weight: bold;
+}
+.div_in_small1 > span > a:hover{
+  color: green;
+}
+.div_in_small1 > span a:active{
+  color: navy;
+}
+.div_in_small2 {
+  width: 200px;
+  padding: 40px 0px 0px 160px;
+}
+.div_in_small2 > span > a {
+  text-decoration: none;
+  color: rgb(255, 85, 0);
+  font-size: 25px;
+  font-weight: bold;
+}
+.div_in_small2 > span > a:hover{
+  color: green;
+}
+.div_in_small2 > span a:active{
+  color: navy;
+}
+.div_in_small3 {
+  width: 200px;
+  padding: 40px 0px 0px 185px;
+}
+.div_in_small3 > span > a {
+  text-decoration: none;
+  color: rgb(255, 85, 0);
+  font-size: 25px;
+  font-weight: bold;
+}
+.div_in_small3 > span > a:hover{
+  color: green;
+}
+.div_in_small3 > span a:active{
+  color: navy;
 }
 .div_small2 > span > s {
   color: gray;
@@ -161,4 +199,14 @@ button:focus {
 }
 .red2 > a:active {
   color: navy;
+}
+.gray{
+  color: gray;
+}
+.blue{
+  color: rgb(86, 86, 255);
+  text-decoration: none;
+}
+.blue:active{
+  color: red;
 }
