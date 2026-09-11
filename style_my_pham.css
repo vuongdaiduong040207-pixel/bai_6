@@ -10,15 +10,15 @@ body {
   border-bottom: 1px solid gray;
   margin-top: 40px;
 }
-.div_in_dall_header2:hover{
-    color: red;
+.div_in_dall_header2:hover {
+  color: red;
 }
-.div_in_dall_header2>div>a:focus{
-    border: 1px solid green;
-    border-radius: 10px;
-    background: green;
-    color: white;
-    padding: 10px 20px 10px 20px;
+.div_in_dall_header2 > div > a:focus {
+  border: 1px solid green;
+  border-radius: 10px;
+  background: green;
+  color: white;
+  padding: 10px 20px 10px 20px;
 }
 .div_in_dall_header2 > div {
   margin-right: 40px;
@@ -155,7 +155,7 @@ button {
 .div_all_footer {
   display: flex;
 }
-.div_in_dfooter1>div{
+.div_in_dfooter1 > div {
   display: block;
   margin-top: -80px;
   margin-left: 30px;
@@ -171,4 +171,18 @@ button {
 }
 .black {
   color: black;
+}
+@media (max-width: 900px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {`
+  main {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+  }
+  .card {
+    padding: 15px;
+  }
 }
